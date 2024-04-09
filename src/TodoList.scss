@@ -1,0 +1,72 @@
+// Define styles for the todo list container
+.todo-list-container {
+  background-color: #b4f0f7; // Light background color
+  padding: 20px;
+  margin-bottom: 20px;
+
+  // Define styles for filter buttons container
+  .filter-buttons {
+    margin-bottom: 10px;
+
+    // Define styles for individual filter button
+    button {
+      margin-right: 10px;
+      cursor: pointer;
+      padding: 5px 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    // Define styles for 'All' button
+    .all-button {
+      background-color: lightyellow;
+    }
+
+    // Define styles for 'Active' button
+    .active-button {
+      background-color: red;
+    }
+
+    // Define styles for 'Completed' button
+    .completed-button {
+      background-color: lightgreen;
+    }
+  }
+
+  // Define styles for todo items
+  .todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+    // Define styles for todo item details
+    .todo-item-details {
+      flex: 1; // Takes remaining space
+      margin-right: 10px;
+
+      // Define styles for todo item title
+      .todo-item-title {
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+
+      // Define styles for todo item description
+      .todo-item-description {
+        color: #666;
+        margin-bottom: 5px;
+      }
+    }
+
+    // Define styles for todo item buttons
+    .todo-item-buttons {
+      display: flex;
+
+      // Define styles for todo item button
+      .todo-item-button {
+        margin-right: 5px;
+        cursor: pointer;
+      }
+    }
+  }
+}
